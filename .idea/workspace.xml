@@ -20,28 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21d02ce9-aaf8-44ee-bb1a-d00d2a4f18e2" name="Default Changelist" comment="new task">
-      <change afterPath="$PROJECT_DIR$/java comments 2 dropdown/dropdown-master/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java comments 2 dropdown/dropdown-master/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java comments 2 dropdown/dropdown-master/.idea/navigation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java comments 2 dropdown/dropdown-master/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java comments 2 dropdown/dropdown-master/dropdown.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java comments 2 dropdown/dropdown-master/dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java comments 2 dropdown/dropdown-master/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/list dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavascriptIntro-master/JavascriptIntro-master/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/java comments 1/JavascriptIntro-master/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavascriptIntro-master/JavascriptIntro-master/.idea/JavascriptIntro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java comments 1/JavascriptIntro-master/.idea/JavascriptIntro.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavascriptIntro-master/JavascriptIntro-master/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java comments 1/JavascriptIntro-master/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavascriptIntro-master/JavascriptIntro-master/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java comments 1/JavascriptIntro-master/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavascriptIntro-master/JavascriptIntro-master/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java comments 1/JavascriptIntro-master/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavascriptIntro-master/JavascriptIntro-master/js-lesson-1/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/java comments 1/JavascriptIntro-master/js-lesson-1/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavascriptIntro-master/JavascriptIntro-master/js-lesson-1/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/java comments 1/JavascriptIntro-master/js-lesson-1/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavascriptIntro-master/JavascriptIntro-master/js-lesson-1/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/java comments 1/JavascriptIntro-master/js-lesson-1/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavascriptIntro-master/JavascriptIntro-master/js-lesson-1/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/java comments 1/JavascriptIntro-master/js-lesson-1/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavascriptIntro-master/JavascriptIntro-master/js-lesson-1/img/photo1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/java comments 1/JavascriptIntro-master/js-lesson-1/img/photo1.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavascriptIntro-master/JavascriptIntro-master/js-lesson-1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/java comments 1/JavascriptIntro-master/js-lesson-1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavascriptIntro-master/JavascriptIntro-master/js-lesson-1/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/java comments 1/JavascriptIntro-master/js-lesson-1/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavascriptIntro-master/JavascriptIntro-master/js-lesson-1/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/java comments 1/JavascriptIntro-master/js-lesson-1/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +34,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -73,7 +55,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../salome-coder.github.io-master" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -86,6 +68,16 @@
       <recent name="C:\Users\Gio\WebstormProjects\g-kvartskhava10.github.io\2" />
       <recent name="C:\Users\Gio\WebstormProjects\g-kvartskhava10.github.io\1" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="list dropdown.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/4/list dropdown.js" working-dir="$PROJECT_DIR$/4">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.list dropdown.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -110,7 +102,9 @@
       <workItem from="1604516093241" duration="152000" />
       <workItem from="1604523434280" duration="1088000" />
       <workItem from="1605701941796" duration="1194000" />
-      <workItem from="1605703158489" duration="8292000" />
+      <workItem from="1605703158489" duration="8468000" />
+      <workItem from="1606307536743" duration="621000" />
+      <workItem from="1606328873732" duration="6258000" />
     </task>
     <task id="LOCAL-00001" summary="j\">
       <created>1603714495733</created>
@@ -147,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605703609147</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="new task">
+      <created>1605717456909</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605717456909</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,10 +173,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="new task" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1605703616791">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1605717467052">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605703616791" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605717467052" />
     <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605717051185">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
