@@ -20,17 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21d02ce9-aaf8-44ee-bb1a-d00d2a4f18e2" name="Default Changelist" comment="new task">
-      <change afterPath="$PROJECT_DIR$/p5/addons/p5.sound.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p5/addons/p5.sound.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p5/p5-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p5/p5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p5/p5.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p5/p5.pre-min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/5/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6/Screenshot (184).png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +108,7 @@
       <workItem from="1607522552701" duration="2485000" />
       <workItem from="1607525085663" duration="21000" />
       <workItem from="1607534691658" duration="2710000" />
+      <workItem from="1608230686041" duration="329000" />
     </task>
     <task id="LOCAL-00001" summary="j\">
       <created>1603714495733</created>
@@ -175,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606946251675</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="new task">
+      <created>1608230855950</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608230855950</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,19 +196,5 @@
     <MESSAGE value="j" />
     <MESSAGE value="new task" />
     <option name="LAST_COMMIT_MESSAGE" value="new task" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1606334982395">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606334982395" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1606946262007">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606946262007" />
-    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605717051185">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1605717051184" />
   </component>
 </project>

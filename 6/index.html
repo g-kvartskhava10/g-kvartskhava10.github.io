@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p {
+            color: #000000;
+            font-family: "BPG Square Mtavruli";
+        }
+        h1 {
+            font-family: "BPG Square Mtavruli";
+        }
+
+        .video-wrapper {
+            position: relative;
+        }
+        video {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        #dadzineba {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            display: none;
+            cursor: pointer;
+        }
+        #sifxizle {
+            position: absolute;
+            top: 60px;
+            left: 20px;
+            display: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<h1>"სხვისი თვალებით"</h1>
+<p>
+    პროექტი “სხვისი თვალებით” არის ინტერაქტიული ვიდე ოთამაში,რომლის მიზანიცაა საზოგადოება მეტად ინფორმირებული იყოს ისეთ
+    მენტალურ პრობლემებზე,როგორებიცაა პარანოია,შიზოფრენია და ა.შ. თამაში უნიკალურია,რადგან საბოლოოდ მომხმარებელი ეცნობა
+    კონკრეტულ გაპიროვნებულ პრობლემას,რომელიც ვიზუალითა და ინფორმაციით ცდილობს უკეთ გაგვაგებინოს და დაგავანხოს პრობლემის
+    არსი.
+</p>
+<p>
+    ჩვენ გადავწყვიტეთ ამ პროექტის გაკეთება, რადგან ვფიქრობთ, რომ მომხმარებლისთვის საინტერესო იქნება გაიაროს და განიცადოს
+    სხვადასხვა პრობლემის მქონე ადამიანის ცხოვრების მცირე მონაკვეთი. ამის გარდა, პროექტს აქვს საგანმანათლებლო
+    დანიშნულება. კი, ყველა შინაგან პრობლემაზე ხალხს აქვს გარკვეული წარმოდგენა და მეტ-ნაკლებად იციან, რას წარმოადგენს ესა
+    თუ ის „დაავადება“. მაგრამ, რა თქმა უნდა, ამის მშრალად ცოდნა ხშირ შემთხვევაში არაფრის მომცემია, ადამიანი ვერ გაიგებს
+    პრობლემის არსს, თუ ის არ განიცადა და მასთან ერთად არ „იცხოვრა“. ჩვენ ანონიმურ ფორუმებში მოვძებნეთ, როგორ აღწერენ
+    ადამიანები საკუთარ გასაჭირს, როგორია მათი ცხოვრება და რასთან უწევთ გამკლავება, გავესაუბრეთ ფსიქოლოგს და ამ
+    ყველაფერზე დაყრდნობით შევქმენით სიუჟეტი.
+</p>
+<p>
+    მოთამაშეს ექნება საშუალება თავად აირჩიოს სასურველუ "მოუდი", ანუ აირჩიოს პრობლემა, რომლის უკეთესად გაგება სურს.
+    ვფიქრობთ, თამაში საინტერესო და სასარგებლო უნდა გამოვიდეს. მსგავსი ვიდეოები ამ თემატიკაზე არსებობს. ჩვენ ისინი ვნახეთ,
+    შევისწავლეთ და მივიღეთ ინსპირაცია. განსხვავება ისაა, რომ არცერთი მათგანი არ ყოფილა ინტერაქტიული. ჩვენი აზრით კი ინტერაქტიული
+    თხრობა ერთ-ერთი საუკეთესო საშუალებაა, რომ ადამიანმა შეიგრნოს მისთვის უცნობი ვითარება. შევეცადეთ ყველაფერი ისე გაგვეკეთებინა, რომ
+    მომხმარებლისთვის ყოფილიყო ერთდროულად საინტერესო, ჩამთრევი და სასარგებლო.
+</p>
+
+<img src="Screenshot%20(184).png" >
+<p>
+    ქვემოთ მოცემულია ძალიან მცირე მონაკვეთი თამაშის დემო ვერსიიდან:
+</p>
+<div class="video-wrapper">
+    <video id="myvideo" width="800" controls >
+        <source src="archevani%20da%20sizmari.mp4">
+    </video>
+    <button id="dadzineba">
+        დაძინება
+    </button>
+    <button id="sifxizle">
+        ფხიზლად დარჩენა
+    </button>
+</div>
+<script>
+    let v
+    v=document.getElementById("myvideo");
+
+    v.addEventListener("timeupdate", function (ev) {
+        if(v.currentTime > 5 && v.currentTime < 13 ){
+            document.getElementById("dadzineba").style.display = "block"
+            document.getElementById("sifxizle").style.display = "block"
+        } else {
+            document.getElementById("dadzineba").style.display = "none"
+            document.getElementById("sifxizle").style.display = "none"
+        }
+    });
+
+    document.getElementById("dadzineba").addEventListener("click", function (){
+        v.currentTime = 14;
+    });
+    document.getElementById("sifxizle").addEventListener("click", function (){
+        v.currentTime = 23;
+    });
+</script>
+</body>
+</html>
