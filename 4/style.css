@@ -1,6 +1,7 @@
 .dropdown-list {
     display: none;
     flex-direction: column;
+    color: #5a6268;
 }
 
 .dropdown-item {
@@ -13,4 +14,7 @@
 
 .col {
     display: none;
+}
+body {
+    background-image: url("1979296.jpg");
 }
