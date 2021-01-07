@@ -49,6 +49,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../salome-coder.github.io-master" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -109,6 +110,7 @@
       <workItem from="1608230686041" duration="329000" />
       <workItem from="1608231327291" duration="727000" />
       <workItem from="1608235179188" duration="6343000" />
+      <workItem from="1610048897248" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="j\">
       <created>1603714495733</created>
