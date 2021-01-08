@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+          integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+          crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+            integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+            crossorigin=""></script>
+    <style>
+        #my-map {
+            height: 100vh;
+        }
+        .links {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div id="my-map"></div>
+<div class="links">
+<a id="spain" href="spain"> <p> See Spanish Film Scene </p></a>
+<a id="britain" href="britain"> <p> See English Film Scene</p></a>
+<a id="georgia" href="georgia"> <p> See Georgian Film Scene </p></a>
+<a id="russia" href="russia"> <p> See Russian Film Scene </p></a>
+<a id="italy" href="italy"> <p> See Italian Film Scene </p></a>
+<a id="usa" href="usa"> <p> See American Film Scene </p></a>
+<a id="japan" href="japan"> <p> See Japanese Film Scene</p></a>
+<a id="france" href="france"> <p> See French Film Scene </p></a>
+<a id="sweden" href="sweden"> <p> See Swedish Film Scene</p></a>
+<a id="cuba" href="cuba"> <p> See Cuban/Soviet Film Scene</p></a>
+</div>
+
+
+<script>
+    let myMap = L.map('my-map');
+    myMap.setView([40.2085, -3.713], 2);
+    let tl = L.tileLayer(
+        'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}',
+        {
+            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+            maxZoom: 18,
+            id: 'mapbox/streets-v11',
+            tileSize: 512,
+            zoomOffset: -1,
+            accessToken: 'pk.eyJ1IjoiZ2lvcXZhcmN4YXZhIiwiYSI6ImNraWhpbzhoNTAwMGUycnFwNDN0YWFmMGIifQ.BBeJlku7TK7jjDEtxtlFfA'
+        }
+    );
+    tl.addTo(myMap);
+
+    const Markers=[
+        {
+            "title": document.getElementById("spain"),
+            "lat": 40.2085,
+            "lng": -3.713
+        },
+        {
+            "title": document.getElementById("britain"),
+            "lat": 55.3617609,
+            "lng": -3.4433238
+        },
+        {
+            "title": document.getElementById("georgia"),
+            "lat": 42.3207845,
+            "lng": 43.3713615
+        },
+        {
+            "title": document.getElementById("russia"),
+            "lat": 55.0,
+            "lng": 103.0
+        },
+        {
+            "title": document.getElementById("italy"),
+            "lat": 41.29246,
+            "lng": 12.5736108
+        },
+        {
+            "title": document.getElementById("usa"),
+            "lat": 37.6,
+            "lng": -95.665
+        },
+        {
+            "title": document.getElementById("japan"),
+            "lat": 37.4900318,
+            "lng": 136.4664008
+        },
+        {
+            "title": document.getElementById("france"),
+            "lat": 46.71109,
+            "lng": 1.7191036
+        },
+        {
+            "title": document.getElementById("sweden"),
+            "lat": 62.1983366,
+            "lng": 17.5671981
+        },
+        {
+            "title": document.getElementById("cuba"),
+            "lat": 21.5513258,
+            "lng": -79.6017351
+        }
+
+
+
+    ]
+    for (let i=0; i<Markers.length; i++) {
+        Markers[i].marker=L.marker([Markers[i].lat, Markers[i].lng]).addTo(myMap);
+        Markers[i].marker.bindPopup(Markers[i].title);
+    }
+
+</script>
+</body>
+</html>

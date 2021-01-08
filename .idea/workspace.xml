@@ -19,7 +19,24 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21d02ce9-aaf8-44ee-bb1a-d00d2a4f18e2" name="Default Changelist" comment="new task" />
+    <list default="true" id="21d02ce9-aaf8-44ee-bb1a-d00d2a4f18e2" name="Default Changelist" comment="new task">
+      <change afterPath="$PROJECT_DIR$/5/markers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finaluri/britain/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finaluri/cuba/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finaluri/france/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finaluri/georgia/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finaluri/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finaluri/italy/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finaluri/japan/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finaluri/russia/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finaluri/spain/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finaluri/sweden/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finaluri/usa/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/list dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/4/list dropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/5/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,8 +46,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -111,7 +128,7 @@
       <workItem from="1608231327291" duration="727000" />
       <workItem from="1608235179188" duration="6343000" />
       <workItem from="1610048897248" duration="34000" />
-      <workItem from="1610051869421" duration="437000" />
+      <workItem from="1610051869421" duration="16805000" />
     </task>
     <task id="LOCAL-00001" summary="j\">
       <created>1603714495733</created>
@@ -204,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610052150834</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="new task">
+      <created>1610052365402</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1610052365402</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

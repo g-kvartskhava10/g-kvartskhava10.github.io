@@ -24,23 +24,7 @@ for(var i=0; i<dropdownItems.length; i++)
     });
 }
 
-var albums = [
-    Orchid, Morningrise, Delivarance, Sorceress, Ghost, Damnation, Watershed
-]
 
-
-    var changed = false
-    do {
-        changed = false
-        for (var i = 0; i < a.length - 1; i++) {
-            if (a[i] > a[i + 1]) {
-                var b = a[i];
-                a[1] = a[i + 1];
-                a [i + 1] = b;
-                changed = true;
-            }
-        }
-    } while (changed);
 
 
 
