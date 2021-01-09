@@ -18,7 +18,7 @@ const sizes = function (){
         v.style.top = "0";
         v.style.left = (w-h * vw/vh)/2 + "px";
     }
-    v.style.opacity=1;
+    v.style.opacity="1";
 }
 
 v.addEventListener("canplay", sizes);
