@@ -55,3 +55,7 @@ document.getElementById("wrong").addEventListener("click", function (){
     v.currentTime = 24;
     v.play();
 })
+
+v.addEventListener("click", function (){
+    v.play();
+})

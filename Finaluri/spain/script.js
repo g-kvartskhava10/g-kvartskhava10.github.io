@@ -56,3 +56,6 @@ document.getElementById("wrong").addEventListener("click", function (){
     v.play();
 })
 
+v.addEventListener("click", function (){
+    v.play();
+})
