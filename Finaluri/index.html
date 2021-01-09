@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Movie Map</title>
+    <title>კინო-რუკა</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
           integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
           crossorigin=""/>
@@ -15,22 +15,24 @@
         }
         .links {
             display: none;
+            overflow: hidden;
+            font-family: "BPG Square Mtavruli";
         }
     </style>
 </head>
 <body>
 <div id="my-map"></div>
 <div class="links">
-<a id="spain" href="spain"> <p> See Spanish Film Scene </p></a>
-<a id="britain" href="britain"> <p> See English Film Scene</p></a>
-<a id="georgia" href="georgia"> <p> See Georgian Film Scene </p></a>
-<a id="russia" href="russia"> <p> See Russian Film Scene </p></a>
-<a id="italy" href="italy"> <p> See Italian Film Scene </p></a>
-<a id="usa" href="usa"> <p> See American Film Scene </p></a>
-<a id="japan" href="japan"> <p> See Japanese Film Scene</p></a>
-<a id="france" href="france"> <p> See French Film Scene </p></a>
-<a id="sweden" href="sweden"> <p> See Swedish Film Scene</p></a>
-<a id="cuba" href="cuba"> <p> See Cuban/Soviet Film Scene</p></a>
+<a id="spain" href="spain"> <p> ნახე ესპანური ფილმის სცენა </p></a>
+<a id="britain" href="britain"> <p> ნახე ბრიტანული ფილმის სცენა</p></a>
+<a id="georgia" href="georgia"> <p> ნახე ქართული ფილმის სცენა </p></a>
+<a id="russia" href="russia"> <p> ნახე რუსული ფილმის სცენა </p></a>
+<a id="italy" href="italy"> <p> ნახე იტალიური ფილმის სცენა </p></a>
+<a id="usa" href="usa"> <p> ნახე ამერიკული ფილმის სცენა </p></a>
+<a id="japan" href="japan"> <p> ნახე იაპონური ფილმის სცენა</p></a>
+<a id="france" href="france"> <p> ნახე ფრანგული ფილმის სცენა </p></a>
+<a id="sweden" href="sweden"> <p> ნახე შვედური ფილმის სცენა </p></a>
+<a id="cuba" href="cuba"> <p> ნახე კუბური/საბჭოთა ფილმის სცენა </p></a>
 </div>
 
 
@@ -49,6 +51,7 @@
         }
     );
     tl.addTo(myMap);
+
 
     const Markers=[
         {

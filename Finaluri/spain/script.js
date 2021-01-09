@@ -1,0 +1,56 @@
+let w, h, v, vw, vh;
+v = document.getElementById("myvideo")
+
+const sizes = function (){
+     w = window.innerWidth;
+     h = window.innerHeight;
+
+     vw = v.clientWidth;
+     vh = v.clientHeight;
+    if (h/w < vh/vw){
+        v.style.width = w + "px";
+        v.style.height= w * vh/vw + "px";
+        v.style.left = "0";
+        v.style.top = (h-w * vh/vw)/2 + "px";
+    } else {
+        v.style.height= h + "px";
+        v.style.width= h * vw/vh +"px";
+        v.style.top = "0";
+        v.style.left = (w-h * vw/vh)/2 + "px";
+    }
+    v.style.opacity=1;
+}
+
+v.addEventListener("canplay", sizes);
+
+v.addEventListener("timeupdate",function(ev) {
+    if (v.currentTime > 0 && v.currentTime < 1){
+        document.getElementById("dawyeba").style.display = "block"
+    } else {
+        document.getElementById("dawyeba").style.display = "none"
+    }
+});
+
+v.addEventListener("timeupdate",function(ev) {
+    if (v.currentTime > 17.19 && v.currentTime < 17.21){
+        document.getElementById("kaba").style.display = "block";
+        document.getElementById("foto").style.display = "block";
+        document.getElementById("kitxva").style.display = "block";
+        v.pause();
+    } else {
+        document.getElementById("kaba").style.display = "none"
+        document.getElementById("foto").style.display = "none"
+        document.getElementById("kitxva").style.display = "none"
+    }
+});
+
+document.getElementById("kaba").addEventListener("click", function (){
+    document.getElementById("txtright").style.right = "0";
+    v.play();
+})
+
+document.getElementById("foto").addEventListener("click", function (){
+    document.getElementById("txtwrong").style.right = "0";
+    v.play();
+})
+
