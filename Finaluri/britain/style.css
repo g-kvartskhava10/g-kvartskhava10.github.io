@@ -1,0 +1,72 @@
+video {
+    position: fixed;
+    opacity: 0;
+    z-index: -1;
+
+}
+body {
+    margin: 0;
+    background-size: cover;
+}
+
+h2 {
+    color: #ffffff;
+    font-family: "BPG Square Mtavruli";
+    margin: 0;
+}
+
+p {
+    color: #ffffff;
+    font-family: "BPG Square Mtavruli";
+    margin: 0;
+}
+#kitxva {
+    position: fixed;
+    top: 140px;
+    left: 500px;
+    display: none;
+}
+#wrong {
+    position: fixed;
+    top: 180px;
+    left: 500px;
+    display: none;
+}
+
+#right {
+    position: fixed;
+    top: 220px;
+    left: 500px;
+    display: none;
+}
+
+button {
+    background-color: #ffffff;
+    color: #282829;
+    cursor: pointer;
+    font-family: "BPG Square Mtavruli";
+    font-size: 22px;
+}
+#txtright {
+    color: #ffffff;
+    font-family: "BPG Square Mtavruli";
+    width: 40%;
+    background-color: #1c7430;
+    position: fixed;
+    right: -1000px;
+    bottom: 0;
+    padding: 20px;
+    transition: right 7s;
+}
+
+#txtwrong {
+    color: #000000;
+    font-family: "BPG Square Mtavruli";
+    width: 40%;
+    background-color: #721c24;
+    position: fixed;
+    right: -1000px;
+    bottom: 0;
+    padding: 20px;
+    transition: right 7s;
+}
