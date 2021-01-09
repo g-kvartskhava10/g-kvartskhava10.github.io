@@ -32,7 +32,7 @@ v.addEventListener("timeupdate",function() {
 });
 
 v.addEventListener("timeupdate",function() {
-    if (v.currentTime > 12. && v.currentTime < 13){
+    if (v.currentTime > 12 && v.currentTime < 13){
         document.getElementById("right").style.display = "block";
         document.getElementById("wrong").style.display = "block";
         document.getElementById("kitxva").style.display = "block";
