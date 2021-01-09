@@ -23,7 +23,7 @@ const sizes = function (){
 
 v.addEventListener("canplay", sizes);
 
-v.addEventListener("timeupdate",function(ev) {
+v.addEventListener("timeupdate",function() {
     if (v.currentTime > 0 && v.currentTime < 1){
         document.getElementById("dawyeba").style.display = "block"
     } else {
@@ -31,26 +31,28 @@ v.addEventListener("timeupdate",function(ev) {
     }
 });
 
-v.addEventListener("timeupdate",function(ev) {
-    if (v.currentTime > 17.19 && v.currentTime < 17.21){
-        document.getElementById("kaba").style.display = "block";
-        document.getElementById("foto").style.display = "block";
+v.addEventListener("timeupdate",function() {
+    if (v.currentTime > 17. && v.currentTime < 18){
+        document.getElementById("right").style.display = "block";
+        document.getElementById("wrong").style.display = "block";
         document.getElementById("kitxva").style.display = "block";
         v.pause();
     } else {
-        document.getElementById("kaba").style.display = "none"
-        document.getElementById("foto").style.display = "none"
+        document.getElementById("right").style.display = "none"
+        document.getElementById("wrong").style.display = "none"
         document.getElementById("kitxva").style.display = "none"
     }
 });
 
-document.getElementById("kaba").addEventListener("click", function (){
+document.getElementById("right").addEventListener("click", function (){
     document.getElementById("txtright").style.right = "0";
+    v.currentTime = 18;
     v.play();
 })
 
-document.getElementById("foto").addEventListener("click", function (){
+document.getElementById("wrong").addEventListener("click", function (){
     document.getElementById("txtwrong").style.right = "0";
+    v.currentTime = 18;
     v.play();
 })
 

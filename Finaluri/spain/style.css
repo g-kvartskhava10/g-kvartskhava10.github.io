@@ -26,14 +26,14 @@ p {
     left: 500px;
     display: none;
 }
-#foto {
+#wrong {
     position: fixed;
     top: 180px;
     left: 500px;
     display: none;
 }
 
-#kaba {
+#right {
     position: fixed;
     top: 220px;
     left: 500px;
