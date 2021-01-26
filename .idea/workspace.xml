@@ -21,23 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="21d02ce9-aaf8-44ee-bb1a-d00d2a4f18e2" name="Default Changelist" comment="new task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Finaluri/britain/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Finaluri/britain/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Finaluri/britain/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Finaluri/britain/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Finaluri/britain/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Finaluri/britain/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Finaluri/cuba/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Finaluri/cuba/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Finaluri/cuba/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Finaluri/cuba/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Finaluri/france/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Finaluri/france/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Finaluri/france/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Finaluri/france/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Finaluri/georgia/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Finaluri/georgia/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Finaluri/georgia/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Finaluri/georgia/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Finaluri/italy/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Finaluri/italy/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Finaluri/italy/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Finaluri/italy/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Finaluri/japan/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Finaluri/japan/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Finaluri/japan/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Finaluri/japan/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Finaluri/russia/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Finaluri/russia/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Finaluri/russia/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Finaluri/russia/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Finaluri/spain/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Finaluri/spain/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Finaluri/spain/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Finaluri/spain/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/5/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Finaluri/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Finaluri/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +134,9 @@
       <workItem from="1610217563358" duration="2999000" />
       <workItem from="1610222281902" duration="963000" />
       <workItem from="1610223418244" duration="50000" />
-      <workItem from="1610223655747" duration="665000" />
+      <workItem from="1610223655747" duration="1094000" />
+      <workItem from="1611650697107" duration="156000" />
+      <workItem from="1611651661130" duration="364000" />
     </task>
     <task id="LOCAL-00001" summary="j\">
       <created>1603714495733</created>
@@ -368,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610223224357</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="new task">
+      <created>1610224458471</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1610224458471</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
